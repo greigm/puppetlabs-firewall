@@ -520,6 +520,8 @@ Puppet::Type.type(:firewall).provide :iptables, :parent => Puppet::Provider::Fir
       :dport,
       :dst_range,
       :dst_type,
+      :iniface,
+      :outiface,
       :port,
       :proto,
       :source,
